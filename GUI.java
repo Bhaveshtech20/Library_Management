@@ -14,6 +14,7 @@ public class GUI extends JFrame {
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
+        setBackground(Color.cyan);
 
         // Display Area
         displayArea = new JTextArea();
